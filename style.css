@@ -1,4 +1,23 @@
-body { font-family: Arial, sans-serif; text-align: center; }
-        .container { width: 50%; margin: auto; }
-        input { width: 100px; }
-        .result { margin-top: 10px; }
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+/*   font-family: "Cutive Mono", serif;
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+/*    font-family: "Roboto Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+ /*      font-family: "Josefin Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+ */
+p{
+    font-family: "Roboto Mono", serif;
+}
+
+h1{
+    font-family: "Cutive Mono", serif;
+}
