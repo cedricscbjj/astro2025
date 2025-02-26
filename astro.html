@@ -16,19 +16,22 @@
     <div class="container">
 
         <div class="row">
-            <div class="col"><img src="spacex.png" alt="Girl in a jacket" width="400" height="300">
-            </div>
-            <div class="col"><img src="Virgin_Galactic.png" alt="Girl in a jacket" width="300" height="200">
-            </div>
+          
 
         </div>
-        <h2>Calculateur de Distance Intergalactique</h2>
+        <h1>CALCULATEUR DE DISTANCE GALACTIQUE</h1>
        
+        <div class="section-style">
 
         <div class="intro">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
         </div>
+    </div>
 
+<br>
+<br>
+
+        <div class="section-style">
         <div class="row">
             <div class="col"><img src="velo.png" alt="Girl in a jacket" width="100" height="100"></div>
             <div class="col"><img src="voiture-de-sport.png" alt="Girl in a jacket" width="100" height="100"></div>
@@ -42,25 +45,31 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
         </div>
 
-        <label>Poids (max 150 kg) : </label>
-        <input type="number" id="poids" min="1" max="150" value="70">
+       
+        <input type="number" id="poids" min="1" max="150"  placeholder="Poids (max 150 kg)"  >
         <br><br>
-        <label>Vitesse (km/h, max 1 079 252 849) : </label>
-        <input type="number" id="vitesse" min="1" max="1079252849" value="1000000">
+        <input type="number" id="vitesse" min="1" max="1079252849"  placeholder="max: 1079252849km/h"  >
         <br><br>
         <button onclick="calculer()">Calculer</button>
         
         <h3>Résultats</h3>
         <div id="resultats"></div>
-        
-        <h3>Voyage Plus Éloigné</h3>
-        <div class="texte1">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+    </div>
+
+        <br>
+        <br>
+        <div class="section-style">
+            <h3>Voyage Plus Éloigné</h3>
+            <div class="texte1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+            <label>Distance en années-lumière : </label>
+            <input type="number" id="anneeLumiere" min="0.1" step="0.1">
+            <button onclick="calculerVoyageLointain()">Calculer Voyage</button>
+            <div id="resultatVoyage"></div>
         </div>
-        <label>Distance en années-lumière : </label>
-        <input type="number" id="anneeLumiere" min="0.1" step="0.1">
-        <button onclick="calculerVoyageLointain()">Calculer Voyage</button>
-        <div id="resultatVoyage"></div>
+        <br>
+        <br>
     </div>
 
    
