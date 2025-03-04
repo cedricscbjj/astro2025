@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+/*   font-family: "Cutive Mono", serif;
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+/*    font-family: "Roboto Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+ /*      font-family: "Josefin Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap');
+
+ body{
+ 
+ }
+
+ #signe{
+    font-family: 'Cherry Swash', cursive;
+
+font-size:60px;
+color:skyblue;
+}
+
+#lettre{
+
+    font-family: 'Cherry Swash', cursive;
+color:#888;
+font-size:100px;
+}
+
+.smaller{
+
+font-family: 'Josefin Slab', serif;
+
+font-size:30px;
+}
+
+#lettre:hover{
+
+cursor: pointer;
+background-color: yellow;
+
+
+}
+p{
+    font-family: "Roboto Mono", serif;
+}
+.intro, .texte, .texte1{
+    background-color: #d5e3e6;
+}
+h1{
+    text-align: center;
+
+    font-size: 70px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  color: #b393d3;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0px #957dad,
+               1px 2px 0px #957dad,
+               1px 3px 0px #957dad,
+               1px 4px 0px #957dad,
+               1px 5px 0px #957dad,
+               1px 6px 0px #957dad,
+               1px 10px 5px rgba(16, 16, 16, 0.5),
+               1px 15px 10px rgba(16, 16, 16, 0.4),
+               1px 20px 30px rgba(16, 16, 16, 0.3),
+               1px 25px 50px rgba(16, 16, 16, 0.2);
+
+}
+
+
+
+label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+
+input {
+    background: transparent;
+    border: 2px solid #4f5d75;
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    color: rgb(110, 167, 196);
+    outline: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+input:focus {
+    border-color: #00d4ff;
+    box-shadow: 0 0 10px #00d4ff;
+}
+
+button {
+    margin-top: 20px;
+    background: linear-gradient(45deg, #ff00ff, #7700ff, #00d4ff);
+    background-size: 300% 300%;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px !important;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.4s;
+    animation: gradientMove 3s infinite alternate;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #7700ff;
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+
+.section-style {
+ 
+
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background: white;
+    position: relative;
+
+    /* Bordure en dégradé */
+    border: 8px solid transparent;
+    background-image: linear-gradient(white, white), 
+                      linear-gradient(45deg, #ff6b6b, #6b6bff);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+.section-style::before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    border-radius: 28px;
+    background: linear-gradient(45deg, #ff6b6b, #6b6bff);
+    z-index: -1;
+}
+
+
+
+footer{
+background-color: #b393d3;
+position: fixed;
+bottom: 0;
+width: 100%;
+padding: 50px;
+
+}
