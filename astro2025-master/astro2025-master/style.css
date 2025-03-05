@@ -145,7 +145,7 @@ button:hover {
     max-width: 600px;
     margin: auto;
     text-align: center;
-    background: #2a2828;
+    background: #151517;
     position: relative;
     color:#f5f2f2;
 
@@ -168,6 +168,24 @@ button:hover {
     background: linear-gradient(45deg, #ff6b6b, #6b6bff);
     z-index: -1;
 }
+
+
+
+img {
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  
+  img:hover {
+    animation: moveUpDown 0.5s ease-in-out forwards;
+  }
+  
+  @keyframes moveUpDown {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+
 
 
 
