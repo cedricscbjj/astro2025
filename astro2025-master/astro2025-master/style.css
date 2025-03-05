@@ -18,20 +18,21 @@
  @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@600&display=swap');
 
  body{
- 
+ background-color: #4f5d75;
+ color:aliceblue;
  }
 
  #signe{
     font-family: 'Cherry Swash', cursive;
 
 font-size:60px;
-color:skyblue;
+color:rgb(60, 89, 101);
 }
 
 #lettre{
 
     font-family: 'Cherry Swash', cursive;
-color:#888;
+color:#d6d8e8;
 font-size:100px;
 }
 
@@ -45,7 +46,7 @@ font-size:30px;
 #lettre:hover{
 
 cursor: pointer;
-background-color: yellow;
+background-color: rgb(82, 82, 87);
 
 
 }
@@ -53,7 +54,8 @@ p{
     font-family: "Roboto Mono", serif;
 }
 .intro, .texte, .texte1{
-    background-color: #d5e3e6;
+    background-color: #2e2f30;
+    color:aliceblue;
 }
 h1{
     text-align: center;
@@ -98,6 +100,10 @@ input {
     text-align: center;
 }
 
+
+#logo{
+    position: fixed;
+}
 input:focus {
     border-color: #00d4ff;
     box-shadow: 0 0 10px #00d4ff;
@@ -139,12 +145,13 @@ button:hover {
     max-width: 600px;
     margin: auto;
     text-align: center;
-    background: white;
+    background: #2a2828;
     position: relative;
+    color:#f5f2f2;
 
     /* Bordure en dégradé */
     border: 8px solid transparent;
-    background-image: linear-gradient(white, white), 
+    background-image: linear-gradient(#312f2f, #312f2f), 
                       linear-gradient(45deg, #ff6b6b, #6b6bff);
     background-origin: border-box;
     background-clip: padding-box, border-box;
@@ -165,10 +172,11 @@ button:hover {
 
 
 footer{
-background-color: #b393d3;
+background: linear-gradient(45deg, #ff6b6b, #6b6bff);
 position: fixed;
 bottom: 0;
 width: 100%;
 padding: 50px;
+color:#f5f2f2;
 
 }
