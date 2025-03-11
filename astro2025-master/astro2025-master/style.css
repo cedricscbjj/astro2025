@@ -136,7 +136,18 @@ button:hover {
     100% { background-position: 100% 50%; }
 }
 
+@media screen and (max-width: 700px) {
+    #logo {
+        margin: auto;       /* Centre l'élément horizontalement */
+        text-align: center; /* Centre le texte à l'intérieur de l'élément */
+        margin-bottom: 30px;
+        position: relative; /* Évite qu'il se superpose aux autres */
+        z-index: 10;       /* Assure qu'il reste au-dessus si nécessaire */
+        padding: 20px; 
+        display: block;    /* S'assure que l'élément est bien un bloc */
 
+    }
+}
 .section-style {
  
 
